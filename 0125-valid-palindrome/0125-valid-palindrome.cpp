@@ -1,12 +1,21 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        string palim = "" ; 
-        for(char c : s){
-            if(isalnum(c)){
-                palim += tolower(c) ;
+        int l = 0 ;
+        int r = s.length() - 1 ; 
+        while (l < r){
+            while (l < r && !isalnum(s[l])){
+                l++ ;
             }
+            while (r > l && !isalnum(s[r])){
+                r-- ;
+            }
+            if (tolower(s[l]) != tolower(s[r])){
+                return false;
+            }
+            l++;
+            r--;
         }
-        return palim == string(palim.rbegin(), palim.rend());
+    return true;
     }
 };
