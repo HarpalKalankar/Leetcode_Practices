@@ -24,6 +24,7 @@
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/HarpalKalankar/Leetcode_Practices/tree/master/0049-group-anagrams) |
+| [0125-valid-palindrome](https://github.com/HarpalKalankar/Leetcode_Practices/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/HarpalKalankar/Leetcode_Practices/tree/master/0242-valid-anagram) |
 ## Sorting
 |  |
@@ -60,4 +61,8 @@
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/HarpalKalankar/Leetcode_Practices/tree/master/0036-valid-sudoku) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/HarpalKalankar/Leetcode_Practices/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
